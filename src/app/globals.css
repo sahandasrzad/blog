@@ -1,0 +1,58 @@
+/* src/app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'YekanBakhFaNum';
+  src:url('/fonts/YekanBakhFaNum-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YekanBakhFaNum';
+  src:url('/fonts/YekanBakhFaNum-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YekanBakhFaNum';
+  src:url('/fonts/YekanBakhFaNum-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YekanBakhFaNum';
+  src:url('/fonts/YekanBakhFaNum-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YekanBakhFaNum';
+  src:url('/fonts/YekanBakhFaNum-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YekanBakhFaNum';
+  src:url('/fonts/YekanBakhFaNum-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+html {
+  @apply bg-white text-gray-900;
+  font-family: 'YekanBakhFaNum', sans-serif;
+}
+
+input:focus,
+textarea:focus {
+    outline: none; 
+
+}
