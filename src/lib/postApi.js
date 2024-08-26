@@ -2,7 +2,9 @@
 
 // Fetch a single post by ID
 export async function fetchPostById(postId) {
-    const res = await fetch(`/api/posts/${postId}`, { cache: 'no-store' });
+  const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
+   const res = await fetch(`${baseUrl}/api/posts/${postId}`, { cache: 'no-store' });
+    // const res = await fetch(`/api/posts/${postId}`, { cache: 'no-store' });
     
     if (!res.ok) {
       const errorData = await res.json();
