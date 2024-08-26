@@ -65,6 +65,7 @@ export async function fetchPostById(postId) {
   
   // Delete a post
   export async function deletePost(postId) {
+    
     const res = await fetch(`/api/posts/${postId}`, {
       method: 'DELETE',
     });
