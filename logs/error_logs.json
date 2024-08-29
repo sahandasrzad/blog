@@ -1,0 +1,14 @@
+[
+  {
+    "status": 500,
+    "error": "Cast to ObjectId failed for value \"66d03fce91de3496\" (type string) at path \"_id\" for model \"Post\"",
+    "url": "http://localhost:3000/api/posts/66d03fce91de3496",
+    "timestamp": "2024-08-29T09:36:44.205Z"
+  },
+  {
+    "status": 500,
+    "error": "Cast to ObjectId failed for value \"66d03fce91de3496\" (type string) at path \"_id\" for model \"Post\"",
+    "url": "http://localhost:3000/api/posts/66d03fce91de3496",
+    "timestamp": "2024-08-29T09:36:44.336Z"
+  }
+]
