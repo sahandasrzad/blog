@@ -1,9 +1,12 @@
-
+import { connectMongoDB } from '@/lib/mongodb';
 import Post from '@/models/Post';
 import { logError } from '@/lib/logger';
+
+// Handle GET request to fetch a post by ID
 export async function GET(req, { params }) {
   try {
-    const post = await Post.findById(params.id); // Find the post by ID
+    await connectMongoDB();
+    const post = await Post.findById(params.id);
 
     if (!post) {
       logError(404, new Error('Post not found'), req.url);
@@ -12,9 +15,7 @@ export async function GET(req, { params }) {
 
     return new Response(JSON.stringify(post), {
       status: 200,
-      headers: {
-        'Cache-Control': 'no-store',
-      },
+      headers: { 'Cache-Control': 'no-store' },
     });
   } catch (error) {
     logError(500, error, req.url);
@@ -23,10 +24,12 @@ export async function GET(req, { params }) {
   }
 }
 
+// Handle PUT request to update a post by ID
 export async function PUT(req, { params }) {
   try {
-    const data = await req.json(); // Parse the request body
-    const updatedPost = await Post.findByIdAndUpdate(params.id, data, { new: true }); // Update the post
+    const data = await req.json();
+    await connectMongoDB();
+    const updatedPost = await Post.findByIdAndUpdate(params.id, data, { new: true });
 
     if (!updatedPost) {
       logError(404, new Error('Post not found'), req.url);
@@ -41,9 +44,11 @@ export async function PUT(req, { params }) {
   }
 }
 
+// Handle DELETE request to delete a post by ID
 export async function DELETE(req, { params }) {
   try {
-    const deletedPost = await Post.findByIdAndDelete(params.id); // Delete the post
+    await connectMongoDB();
+    const deletedPost = await Post.findByIdAndDelete(params.id);
 
     if (!deletedPost) {
       logError(404, new Error('Post not found'), req.url);

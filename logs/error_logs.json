@@ -10,5 +10,173 @@
     "error": "Cast to ObjectId failed for value \"66d03fce91de3496\" (type string) at path \"_id\" for model \"Post\"",
     "url": "http://localhost:3000/api/posts/66d03fce91de3496",
     "timestamp": "2024-08-29T09:36:44.336Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T09:50:24.982Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T09:50:35.012Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T09:53:23.282Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T09:53:33.305Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T10:04:41.407Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T10:04:51.429Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T10:08:50.881Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T10:09:00.912Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T10:11:02.323Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T10:11:12.351Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T10:19:18.868Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T10:19:28.891Z"
+  },
+  {
+    "status": 500,
+    "error": "isConnected is not defined",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T10:20:20.027Z"
+  },
+  {
+    "status": 500,
+    "error": "isConnected is not defined",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T10:20:20.076Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T11:32:03.377Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T11:32:13.400Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T11:43:56.951Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T11:44:06.980Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T11:46:10.918Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T11:46:20.943Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T11:47:03.651Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T11:47:13.681Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T13:14:14.739Z"
+  },
+  {
+    "status": 500,
+    "error": "Operation `posts.find()` buffering timed out after 10000ms",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T13:14:24.765Z"
+  },
+  {
+    "status": 500,
+    "error": "(0 , _lib_mongodb__WEBPACK_IMPORTED_MODULE_2__.dbConnect) is not a function",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T14:04:52.128Z"
+  },
+  {
+    "status": 500,
+    "error": "(0 , _lib_mongodb__WEBPACK_IMPORTED_MODULE_2__.dbConnect) is not a function",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T14:04:52.160Z"
+  },
+  {
+    "status": 500,
+    "error": "(0 , _lib_mongodb__WEBPACK_IMPORTED_MODULE_2__.dbConnect) is not a function",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T14:05:51.497Z"
+  },
+  {
+    "status": 500,
+    "error": "(0 , _lib_mongodb__WEBPACK_IMPORTED_MODULE_2__.dbConnect) is not a function",
+    "url": "http://localhost:3000/api/posts",
+    "timestamp": "2024-08-29T14:05:51.584Z"
   }
 ]
